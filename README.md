@@ -4,8 +4,12 @@ Scraper made with more advanced tools and techniques to fetch dynamic webpages.
 
 ## Stack
 
-- https://github.com/robertkrimen/otto
-- https://github.com/sourcegraph/webloop
+Install dependencies:
+
+```sh
+$ go get gopkg.in/headzoo/surf.v1
+$ go get github.com/PuerkitoBio/goquery
+```
 
 ## License
 
