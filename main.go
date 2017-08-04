@@ -8,7 +8,7 @@ import (
 
 func main() {
   browser := surf.NewBrowser() // Creates browser
-  url := "https://www.instagram.com/explore/locations/213480180/washington-district-of-columbia/"
+  url := "https://www.instagram.com/explore/locations/213480180/"
   err := browser.Open(url)
   if err != nil {
     panic(err)
@@ -25,10 +25,5 @@ func main() {
     top.AddItem(v)
   }
   out, _ := json.Marshal(top)
-  fmt.Println(string(out))
-}
-
-func (post *TopPosts) AddItem(item Post) []Post {
-  post.Posts = append(post.Posts, item)
-  return post.Posts
+  fmt.Println(string(out)) // JSON result
 }
