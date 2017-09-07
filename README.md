@@ -1,6 +1,6 @@
 # Scraper with Golang
 
-Scraper made with more advanced tools and techniques to fetch dynamic webpages.
+Scraper that extracts Instagram Posts.
 
 ## Stack
 
