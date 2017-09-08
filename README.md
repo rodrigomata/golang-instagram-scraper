@@ -1,3 +1,4 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/rodrigomata/golang-instagram-scraper)](https://goreportcard.com/report/github.com/rodrigomata/golang-instagram-scraper)
 # Scraper with Golang
 
 Scraper that extracts Instagram Posts.
